@@ -20,6 +20,7 @@ code {
   margin: 0 auto;
   height: 100%;
   width: 75vw;
+  cursor: default;
 }
 
 h1 {
