@@ -1,6 +1,4 @@
-# Intro-to-React
-
-Intro to React: Illustration Application and Modules
+# React-201
 
 ## Summary
 
@@ -14,14 +12,6 @@ This repo is a supplemental, illustrative aid to the Intro to React slide deck. 
 ### Resources
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [A short intro to React.js by Merdan Durdiyev (dev.to)](https://dev.to/eminarium/a-short-intro-to-react-js-aed)
-- [W3Schools - React Tutorial](https://www.w3schools.com/react/default.asp)
-- [The Missing Introduction to React by Eric Elliott (medium.com)](https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76)
-- [GeeksforGeeks - React JS (Introduction and Working)](https://www.geeksforgeeks.org/react-js-introduction-working/)
-- [React for Beginners - A React.js Handbook for Front End Developers by Flavio Copes (freecodecamp.org)](https://www.freecodecamp.org/news/react-beginner-handbook/)
-- [Why You Should Use React.js For Web Development by Suraj Surve (freecodecamp.org)](https://www.freecodecamp.org/news/why-use-react-for-web-development/)
-- [The Best Guide to Know What is React by Chinmayee Deshpande (simplilearn.com)](https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs#why_react)
-- [Understanding Functional Components vs. Class Components in React by Shiori Yamazaki (twilio.com)](https://www.twilio.com/blog/react-choose-functional-components)
 
 ### Correction/Suggestion Submissions
 
