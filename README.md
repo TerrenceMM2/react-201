@@ -2,12 +2,11 @@
 
 ## Summary
 
-This repo is a supplemental, illustrative aid to the Intro to React slide deck. The following topics are covered as independent modules (React components):
+This repo is a continuation of the [Intro to React (101)](https://github.com/TerrenceMM2/intro-to-react) repo/presentation. The following topics are covered as independent modules (React components):
 
-1. JSX
-2. State & Props
-3. Functional vs Class Components
-4. HTML & CSS in React
+1. Event Handling & Synthetic Events
+2. Conditional Rendering
+3. Lists & Keys
 
 ### Resources
 
