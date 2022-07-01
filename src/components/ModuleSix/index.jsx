@@ -45,7 +45,6 @@ export default function ModuleSix() {
   };
 
   return (
-    // onDoubleClick is a React Synthetic Event
     <div style={styles.container}>
       <h1>Conditional Rendering</h1>
       <h2>Example 1</h2>
