@@ -3,12 +3,19 @@ import React, { useState } from "react";
 const styles = {
   container: {
     textAlign: "center",
-    border: "1px black solid",
+    paddingTop: "5rem",
   },
   innerContainer: {
+    marginTop: "5rem",
+    border: "1px solid black",
+    flexDirection: "column",
     display: "flex",
     justifyContent: "space-around",
     textAlign: "center",
+  },
+  controls: {
+    display: "flex",
+    justifyContent: "space-around",
   },
   button: {
     fontSize: "1.5rem",
@@ -53,30 +60,35 @@ export default function ModuleFive() {
 
   return (
     // onDoubleClick is a React Synthetic Event
-    <div style={styles.container} onDoubleClick={() => shipState === "off" && setShipState("idle")}>
-      <h2>Space Ship 🛸</h2>
-      <div style={styles.innerContainer}>
+    <div style={styles.container}>
+      <h1>Event Handling & Synthetic Events</h1>
+      <div style={styles.innerContainer} onDoubleClick={() => shipState === "off" && setShipState("idle")}>
         <div>
-          <div>Press to fire the lasers!</div>
-          {/* Notice the use of 'onClick' (camelCase) instead of 'onclick' */}
-          <button style={styles.button} value="laser" onClick={handleOnClick}>
-            🔫
-          </button>
+          <h2>Space Ship 🛸</h2>
+          <div style={styles.controls}>
+            <div>
+              <div>Press to fire the lasers!</div>
+              {/* Notice the use of 'onClick' (camelCase) instead of 'onclick' */}
+              <button style={styles.button} value="laser" onClick={handleOnClick}>
+                🔫
+              </button>
+            </div>
+            <div>
+              <div>Press to accelerate.</div>
+              <button style={styles.button} value="go" onClick={handleOnClick}>
+                🟢
+              </button>
+            </div>
+            <div>
+              <div>Press to brake.</div>
+              <button style={styles.button} value="stop" onClick={handleOnClick}>
+                🛑
+              </button>
+            </div>
+          </div>
         </div>
-        <div>
-          <div>Press to accelerate.</div>
-          <button style={styles.button} value="go" onClick={handleOnClick}>
-            🟢
-          </button>
-        </div>
-        <div>
-          <div>Press to brake.</div>
-          <button style={styles.button} value="stop" onClick={handleOnClick}>
-            🛑
-          </button>
-        </div>
+        <div style={styles.display}>{handleShipState()}</div>
       </div>
-      <div style={styles.display}>{handleShipState()}</div>
     </div>
   );
 }
